@@ -9,7 +9,7 @@ PV = "1.0.0+git${SRCPV}"
 
 SRCBRANCH ?= "master"
 SRCREV = "db17cb57d1087cf590b28487c43cb5c47bf76fe7"
-SRC_URI = "git://github.com/Freescale/libimxdmabuffer.git;branch=${SRCBRANCH}"
+SRC_URI = "git://github.com/Freescale/libimxdmabuffer.git;branch=${SRCBRANCH};protocol=https"
 
 S = "${WORKDIR}/git"
 
